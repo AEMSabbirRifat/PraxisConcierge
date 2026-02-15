@@ -5,6 +5,10 @@ version:  1.0.3
 language: en
 narrator: US English Female
 
+meta:     no-cache
+cache:    false
+reload:   true
+
 comment:  Partner Lead Automation - Workflow Solution
           Case Study for Growth & Analysis Position
 
@@ -901,5 +905,6 @@ h4 {
 <p><strong>Compliance-first messaging resonates with risk-averse practices</strong></p>
 <p style="color: #555;">Address cultural priorities directly</p>
 </div>
+
 
 </div>
