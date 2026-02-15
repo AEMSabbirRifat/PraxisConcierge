@@ -1,14 +1,14 @@
 <!--
 author:   Sabbir Rifat
 email:    a.e.m.sabbirrifat@gmail.com
-version:  1.0.0
+version:  1.0.2
 language: en
 narrator: US English Female
 
 comment:  Partner Lead Automation - Workflow Solution
           Case Study for Growth & Analysis Position
 
-<style>
+@style
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -297,8 +297,9 @@ h4 {
   margin: 50px 0;
   border-radius: 2px;
 }
-</style>
+@end
 
+-->
 
 # PraxisConcierge Marketing Use Cases
 
@@ -944,6 +945,7 @@ h4 {
 
 </div>
 ************************************
+
 
 
 
