@@ -1,14 +1,14 @@
 <!--
 author:   Sabbir Rifat
 email:    a.e.m.sabbirrifat@gmail.com
-version:  1.0.0
+version:  2.0.0
 language: en
 narrator: US English Female
 
 comment:  Partner Lead Automation - Workflow Solution
           Case Study for Growth & Analysis Position
+-->
 
-@style
 <style>
 .container {
   max-width: 1200px;
@@ -17,291 +17,290 @@ comment:  Partner Lead Automation - Workflow Solution
 }
 
 .observation-box {
-  background: linear-gradient(135deg, rgba(74, 144, 226, 0.15), rgba(80, 227, 194, 0.15));
-  border: 2px solid rgba(74, 144, 226, 0.4);
-  border-radius: 15px;
-  padding: 25px;
-  margin: 20px 0;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
+  background: linear-gradient(135deg, rgba(74, 144, 226, 0.15), rgba(80, 227, 194, 0.15)) !important;
+  border: 2px solid rgba(74, 144, 226, 0.4) !important;
+  border-radius: 15px !important;
+  padding: 25px !important;
+  margin: 20px 0 !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1) !important;
+  transition: all 0.3s ease !important;
 }
 
 .observation-box:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 8px 25px rgba(74, 144, 226, 0.3);
-  border-color: rgba(74, 144, 226, 0.6);
+  transform: translateY(-8px) !important;
+  box-shadow: 0 8px 25px rgba(74, 144, 226, 0.3) !important;
+  border-color: rgba(74, 144, 226, 0.6) !important;
 }
 
 .step-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 25px;
-  margin: 30px 0;
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+  gap: 25px !important;
+  margin: 30px 0 !important;
 }
 
 .step-box {
-  background: linear-gradient(135deg, rgba(255, 107, 107, 0.12), rgba(255, 159, 64, 0.12));
-  border: 2px solid rgba(255, 107, 107, 0.4);
-  border-radius: 15px;
-  padding: 25px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-  transition: all 0.3s ease;
-  min-height: 200px;
+  background: linear-gradient(135deg, rgba(255, 107, 107, 0.12), rgba(255, 159, 64, 0.12)) !important;
+  border: 2px solid rgba(255, 107, 107, 0.4) !important;
+  border-radius: 15px !important;
+  padding: 25px !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08) !important;
+  transition: all 0.3s ease !important;
+  min-height: 200px !important;
 }
 
 .step-box:hover {
-  transform: translateY(-10px) scale(1.02);
-  box-shadow: 0 10px 30px rgba(255, 107, 107, 0.3);
-  border-color: rgba(255, 107, 107, 0.6);
+  transform: translateY(-10px) scale(1.02) !important;
+  box-shadow: 0 10px 30px rgba(255, 107, 107, 0.3) !important;
+  border-color: rgba(255, 107, 107, 0.6) !important;
 }
 
 .step-box:nth-child(1) {
-  background: linear-gradient(135deg, rgba(130, 88, 236, 0.12), rgba(182, 109, 255, 0.12));
-  border-color: rgba(130, 88, 236, 0.4);
+  background: linear-gradient(135deg, rgba(130, 88, 236, 0.12), rgba(182, 109, 255, 0.12)) !important;
+  border-color: rgba(130, 88, 236, 0.4) !important;
 }
 
 .step-box:nth-child(1):hover {
-  box-shadow: 0 10px 30px rgba(130, 88, 236, 0.3);
-  border-color: rgba(130, 88, 236, 0.6);
+  box-shadow: 0 10px 30px rgba(130, 88, 236, 0.3) !important;
+  border-color: rgba(130, 88, 236, 0.6) !important;
 }
 
 .step-box:nth-child(2) {
-  background: linear-gradient(135deg, rgba(0, 184, 148, 0.12), rgba(0, 206, 201, 0.12));
-  border-color: rgba(0, 184, 148, 0.4);
+  background: linear-gradient(135deg, rgba(0, 184, 148, 0.12), rgba(0, 206, 201, 0.12)) !important;
+  border-color: rgba(0, 184, 148, 0.4) !important;
 }
 
 .step-box:nth-child(2):hover {
-  box-shadow: 0 10px 30px rgba(0, 184, 148, 0.3);
-  border-color: rgba(0, 184, 148, 0.6);
+  box-shadow: 0 10px 30px rgba(0, 184, 148, 0.3) !important;
+  border-color: rgba(0, 184, 148, 0.6) !important;
 }
 
 .step-box:nth-child(3) {
-  background: linear-gradient(135deg, rgba(253, 121, 168, 0.12), rgba(255, 107, 107, 0.12));
-  border-color: rgba(253, 121, 168, 0.4);
+  background: linear-gradient(135deg, rgba(253, 121, 168, 0.12), rgba(255, 107, 107, 0.12)) !important;
+  border-color: rgba(253, 121, 168, 0.4) !important;
 }
 
 .step-box:nth-child(3):hover {
-  box-shadow: 0 10px 30px rgba(253, 121, 168, 0.3);
-  border-color: rgba(253, 121, 168, 0.6);
+  box-shadow: 0 10px 30px rgba(253, 121, 168, 0.3) !important;
+  border-color: rgba(253, 121, 168, 0.6) !important;
 }
 
 .step-box:nth-child(4) {
-  background: linear-gradient(135deg, rgba(255, 159, 64, 0.12), rgba(255, 193, 7, 0.12));
-  border-color: rgba(255, 159, 64, 0.4);
+  background: linear-gradient(135deg, rgba(255, 159, 64, 0.12), rgba(255, 193, 7, 0.12)) !important;
+  border-color: rgba(255, 159, 64, 0.4) !important;
 }
 
 .step-box:nth-child(4):hover {
-  box-shadow: 0 10px 30px rgba(255, 159, 64, 0.3);
-  border-color: rgba(255, 159, 64, 0.6);
+  box-shadow: 0 10px 30px rgba(255, 159, 64, 0.3) !important;
+  border-color: rgba(255, 159, 64, 0.6) !important;
 }
 
 .step-number {
-  display: inline-block;
-  background: linear-gradient(135deg, #667eea, #764ba2);
-  color: white;
-  font-size: 1.2em;
-  font-weight: bold;
-  padding: 8px 18px;
-  border-radius: 25px;
-  margin-bottom: 15px;
-  box-shadow: 0 3px 10px rgba(102, 126, 234, 0.3);
+  display: inline-block !important;
+  background: linear-gradient(135deg, #667eea, #764ba2) !important;
+  color: white !important;
+  font-size: 1.2em !important;
+  font-weight: bold !important;
+  padding: 8px 18px !important;
+  border-radius: 25px !important;
+  margin-bottom: 15px !important;
+  box-shadow: 0 3px 10px rgba(102, 126, 234, 0.3) !important;
 }
 
 .step-box:nth-child(1) .step-number {
-  background: linear-gradient(135deg, #8258ec, #b66dff);
+  background: linear-gradient(135deg, #8258ec, #b66dff) !important;
 }
 
 .step-box:nth-child(2) .step-number {
-  background: linear-gradient(135deg, #00b894, #00cec9);
+  background: linear-gradient(135deg, #00b894, #00cec9) !important;
 }
 
 .step-box:nth-child(3) .step-number {
-  background: linear-gradient(135deg, #fd79a8, #ff6b6b);
+  background: linear-gradient(135deg, #fd79a8, #ff6b6b) !important;
 }
 
 .step-box:nth-child(4) .step-number {
-  background: linear-gradient(135deg, #ff9f43, #ffc107);
+  background: linear-gradient(135deg, #ff9f43, #ffc107) !important;
 }
 
 .impact-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px;
-  margin: 30px 0;
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important;
+  gap: 20px !important;
+  margin: 30px 0 !important;
 }
 
 .impact-box {
-  background: linear-gradient(135deg, rgba(255, 190, 11, 0.12), rgba(251, 197, 49, 0.12));
-  border: 2px solid rgba(255, 190, 11, 0.4);
-  border-radius: 15px;
-  padding: 20px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-  transition: all 0.3s ease;
+  background: linear-gradient(135deg, rgba(255, 190, 11, 0.12), rgba(251, 197, 49, 0.12)) !important;
+  border: 2px solid rgba(255, 190, 11, 0.4) !important;
+  border-radius: 15px !important;
+  padding: 20px !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08) !important;
+  transition: all 0.3s ease !important;
 }
 
 .impact-box:hover {
-  transform: translateY(-8px) scale(1.02);
-  box-shadow: 0 10px 25px rgba(255, 190, 11, 0.3);
-  border-color: rgba(255, 190, 11, 0.6);
+  transform: translateY(-8px) scale(1.02) !important;
+  box-shadow: 0 10px 25px rgba(255, 190, 11, 0.3) !important;
+  border-color: rgba(255, 190, 11, 0.6) !important;
 }
 
 .impact-box:nth-child(1) {
-  background: linear-gradient(135deg, rgba(0, 148, 255, 0.12), rgba(0, 184, 217, 0.12));
-  border-color: rgba(0, 148, 255, 0.4);
+  background: linear-gradient(135deg, rgba(0, 148, 255, 0.12), rgba(0, 184, 217, 0.12)) !important;
+  border-color: rgba(0, 148, 255, 0.4) !important;
 }
 
 .impact-box:nth-child(1):hover {
-  box-shadow: 0 10px 25px rgba(0, 148, 255, 0.3);
-  border-color: rgba(0, 148, 255, 0.6);
+  box-shadow: 0 10px 25px rgba(0, 148, 255, 0.3) !important;
+  border-color: rgba(0, 148, 255, 0.6) !important;
 }
 
 .impact-box:nth-child(2) {
-  background: linear-gradient(135deg, rgba(85, 230, 193, 0.12), rgba(52, 211, 153, 0.12));
-  border-color: rgba(85, 230, 193, 0.4);
+  background: linear-gradient(135deg, rgba(85, 230, 193, 0.12), rgba(52, 211, 153, 0.12)) !important;
+  border-color: rgba(85, 230, 193, 0.4) !important;
 }
 
 .impact-box:nth-child(2):hover {
-  box-shadow: 0 10px 25px rgba(85, 230, 193, 0.3);
-  border-color: rgba(85, 230, 193, 0.6);
+  box-shadow: 0 10px 25px rgba(85, 230, 193, 0.3) !important;
+  border-color: rgba(85, 230, 193, 0.6) !important;
 }
 
 .impact-box:nth-child(3) {
-  background: linear-gradient(135deg, rgba(250, 152, 58, 0.12), rgba(249, 115, 22, 0.12));
-  border-color: rgba(250, 152, 58, 0.4);
+  background: linear-gradient(135deg, rgba(250, 152, 58, 0.12), rgba(249, 115, 22, 0.12)) !important;
+  border-color: rgba(250, 152, 58, 0.4) !important;
 }
 
 .impact-box:nth-child(3):hover {
-  box-shadow: 0 10px 30px rgba(250, 152, 58, 0.3);
-  border-color: rgba(250, 152, 58, 0.6);
+  box-shadow: 0 10px 30px rgba(250, 152, 58, 0.3) !important;
+  border-color: rgba(250, 152, 58, 0.6) !important;
 }
 
 .highlight-box {
-  background: linear-gradient(135deg, rgba(139, 69, 219, 0.12), rgba(124, 58, 237, 0.12));
-  border: 2px solid rgba(139, 69, 219, 0.4);
-  border-radius: 15px;
-  padding: 20px;
-  margin: 15px 0;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-  transition: all 0.3s ease;
+  background: linear-gradient(135deg, rgba(139, 69, 219, 0.12), rgba(124, 58, 237, 0.12)) !important;
+  border: 2px solid rgba(139, 69, 219, 0.4) !important;
+  border-radius: 15px !important;
+  padding: 20px !important;
+  margin: 15px 0 !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08) !important;
+  transition: all 0.3s ease !important;
 }
 
 .highlight-box:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 20px rgba(139, 69, 219, 0.3);
-  border-color: rgba(139, 69, 219, 0.6);
+  transform: translateY(-6px) !important;
+  box-shadow: 0 8px 20px rgba(139, 69, 219, 0.3) !important;
+  border-color: rgba(139, 69, 219, 0.6) !important;
 }
 
 .comparison-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  margin: 20px 0;
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+  gap: 20px !important;
+  margin: 20px 0 !important;
 }
 
 .before-box {
-  background: linear-gradient(135deg, rgba(239, 68, 68, 0.12), rgba(220, 38, 38, 0.12));
-  border: 2px solid rgba(239, 68, 68, 0.4);
-  border-radius: 15px;
-  padding: 20px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-  transition: all 0.3s ease;
+  background: linear-gradient(135deg, rgba(239, 68, 68, 0.12), rgba(220, 38, 38, 0.12)) !important;
+  border: 2px solid rgba(239, 68, 68, 0.4) !important;
+  border-radius: 15px !important;
+  padding: 20px !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08) !important;
+  transition: all 0.3s ease !important;
 }
 
 .before-box:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 8px 20px rgba(239, 68, 68, 0.3);
-  border-color: rgba(239, 68, 68, 0.6);
+  transform: translateY(-8px) !important;
+  box-shadow: 0 8px 20px rgba(239, 68, 68, 0.3) !important;
+  border-color: rgba(239, 68, 68, 0.6) !important;
 }
 
 .after-box {
-  background: linear-gradient(135deg, rgba(16, 185, 129, 0.12), rgba(5, 150, 105, 0.12));
-  border: 2px solid rgba(16, 185, 129, 0.4);
-  border-radius: 15px;
-  padding: 20px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-  transition: all 0.3s ease;
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.12), rgba(5, 150, 105, 0.12)) !important;
+  border: 2px solid rgba(16, 185, 129, 0.4) !important;
+  border-radius: 15px !important;
+  padding: 20px !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08) !important;
+  transition: all 0.3s ease !important;
 }
 
 .after-box:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 8px 20px rgba(16, 185, 129, 0.3);
-  border-color: rgba(16, 185, 129, 0.6);
+  transform: translateY(-8px) !important;
+  box-shadow: 0 8px 20px rgba(16, 185, 129, 0.3) !important;
+  border-color: rgba(16, 185, 129, 0.6) !important;
 }
 
 .task-box {
-  background: linear-gradient(135deg, rgba(59, 130, 246, 0.12), rgba(37, 99, 235, 0.12));
-  border: 2px solid rgba(59, 130, 246, 0.4);
-  border-radius: 15px;
-  padding: 20px;
-  margin: 15px 0;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-  transition: all 0.3s ease;
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.12), rgba(37, 99, 235, 0.12)) !important;
+  border: 2px solid rgba(59, 130, 246, 0.4) !important;
+  border-radius: 15px !important;
+  padding: 20px !important;
+  margin: 15px 0 !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08) !important;
+  transition: all 0.3s ease !important;
 }
 
 .task-box:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.3);
-  border-color: rgba(59, 130, 246, 0.6);
+  transform: translateY(-8px) !important;
+  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.3) !important;
+  border-color: rgba(59, 130, 246, 0.6) !important;
 }
 
 .bullet-list {
-  list-style: none;
-  padding-left: 0;
+  list-style: none !important;
+  padding-left: 0 !important;
 }
 
 .bullet-list li {
-  padding-left: 25px;
-  margin: 10px 0;
-  position: relative;
+  padding-left: 25px !important;
+  margin: 10px 0 !important;
+  position: relative !important;
 }
 
 .bullet-list li:before {
-  content: "▸";
-  position: absolute;
-  left: 5px;
-  color: #667eea;
-  font-size: 1.2em;
-  font-weight: bold;
+  content: "▸" !important;
+  position: absolute !important;
+  left: 5px !important;
+  color: #667eea !important;
+  font-size: 1.2em !important;
+  font-weight: bold !important;
 }
 
 h1, h2, h3 {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-align: center;
-  margin-bottom: 30px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  text-align: center !important;
+  margin-bottom: 30px !important;
 }
 
 h1 {
-  font-size: 2.8em;
+  font-size: 2.8em !important;
 }
 
 h2 {
-  font-size: 2.5em;
+  font-size: 2.5em !important;
 }
 
 h3 {
-  font-size: 2.2em;
+  font-size: 2.2em !important;
 }
 
 h4 {
-  color: #667eea;
-  font-size: 1.3em;
-  margin-bottom: 15px;
-  text-align: center;
+  color: #667eea !important;
+  font-size: 1.3em !important;
+  margin-bottom: 15px !important;
+  text-align: center !important;
 }
 
 .section-divider {
-  height: 3px;
-  background: linear-gradient(90deg, #667eea, #764ba2, #f093fb);
-  margin: 50px 0;
-  border-radius: 2px;
+  height: 3px !important;
+  background: linear-gradient(90deg, #667eea, #764ba2, #f093fb) !important;
+  margin: 50px 0 !important;
+  border-radius: 2px !important;
 }
 </style>
-@end
+```
 
--->
 
 # PraxisConcierge Marketing Use Cases
 
@@ -947,6 +946,7 @@ h4 {
 
 </div>
 ************************************
+
 
 
 
