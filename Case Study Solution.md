@@ -8,7 +8,6 @@ narrator: US English Female
 comment:  Partner Lead Automation - Workflow Solution
           Case Study for Growth & Analysis Position
 
-@style
 <style>
 .container {
   max-width: 1200px;
@@ -299,9 +298,7 @@ h4 {
   border-radius: 2px;
 }
 </style>
-@end
 
--->
 
 # PraxisConcierge Marketing Use Cases
 
@@ -947,6 +944,7 @@ h4 {
 
 </div>
 ************************************
+
 
 
 
